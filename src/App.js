@@ -46,7 +46,7 @@ function App() {
     <Switch>
     {/* /users --> Component 1
         /users/home --> Component 2 */}
-          <Route exact path="/about">
+          <Route exact path="/textutils/about">
             <About mode={mode} />
           </Route>
           <Route exact path="/textutils">
